@@ -1,0 +1,59 @@
+{
+  "id": "BARE-TEMPLATE",
+  "guid": "fda3c1af-a317-49cb-bcc9-66ba3362546b",
+  "name": "Bare document template",
+  "lastId": 1,
+  "createdOn": "2025-09-12T13:15:21.998Z",
+  "createdBy": {
+    "name": "Manuel Kersic",
+    "email": "manuel.kersic@tricera.energy",
+    "company": "TRICERA energy GmbH"
+  },
+  "lastChangedOn": "2025-09-12T13:15:22.500Z",
+  "lastChangedBy": {
+    "name": "Manuel Kersic",
+    "email": "manuel.kersic@tricera.energy",
+    "company": "TRICERA energy GmbH"
+  },
+  "data": [
+    {
+      "id": "1",
+      "guid": "779f4132-84cd-47dc-8f82-bda69ffebd35",
+      "history": [
+        {
+          "affectedNodeId": "#",
+          "changedBy": {
+            "company": "TRICERA energy GmbH",
+            "email": "manuel.kersic@tricera.energy",
+            "name": "Manuel Kersic"
+          },
+          "changedOn": "2025-09-12T13:15:22.500Z",
+          "docId": "BARE-TEMPLATE",
+          "structureAction": "Create"
+        }
+      ]
+    }
+  ],
+  "attributes": {
+  },
+  "templateColumns": {
+  },
+  "views": {
+    "Primary": {
+      "columns": [
+        {
+          "columnId": "id",
+          "width": 65
+        },
+        {
+          "columnId": "description",
+          "width": 500
+        }
+      ],
+      "default": true
+    }
+  },
+  "metadata": {
+    "format": "2.20"
+  }
+}

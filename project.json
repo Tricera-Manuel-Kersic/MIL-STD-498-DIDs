@@ -1,0 +1,18 @@
+{
+  "id": "MIL-STD-498-DIDs",
+  "description": "Data Item Descriptions (DIDs) for the MIL-STD-498 standard",
+  "documents": [
+    "BARE-TEMPLATE.json"
+  ],
+  "traceability": {
+    "reference": {
+      "name": "Reference",
+      "source": "References",
+      "target": "Referenced by"
+    }
+  },
+  "metadata": {
+    "format": "2.20",
+    "saveHistory": true
+  }
+}
