@@ -9,7 +9,7 @@
     "email": "manuel.kersic@tricera.energy",
     "company": "TRICERA energy GmbH"
   },
-  "lastChangedOn": "2025-09-12T13:31:38.517Z",
+  "lastChangedOn": "2025-09-16T14:40:25.788Z",
   "lastChangedBy": {
     "name": "Manuel Kersic",
     "email": "manuel.kersic@tricera.energy",
@@ -35,6 +35,85 @@
     }
   ],
   "attributes": {
+    "assignedTo": {
+      "name": "Assigned To",
+      "type": "string"
+    },
+    "compliance": {
+      "name": "Compliance",
+      "type": "enum",
+      "values": [
+        {
+          "default": false,
+          "key": "1",
+          "label": "Comply"
+        },
+        {
+          "default": false,
+          "key": "2",
+          "label": "Partial Comply"
+        },
+        {
+          "default": false,
+          "key": "3",
+          "label": "Non-Compliant"
+        }
+      ]
+    },
+    "deadline": {
+      "name": "Deadline",
+      "type": "date"
+    },
+    "difficulty": {
+      "name": "Difficulty",
+      "type": "enum",
+      "values": [
+        {
+          "default": false,
+          "key": "1",
+          "label": "Easy"
+        },
+        {
+          "default": false,
+          "key": "2",
+          "label": "Nominal"
+        },
+        {
+          "default": false,
+          "key": "3",
+          "label": "Difficult"
+        }
+      ]
+    },
+    "instructions": {
+      "name": "Instructions",
+      "type": "xhtml"
+    },
+    "priority": {
+      "name": "Priority",
+      "type": "enum",
+      "values": [
+        {
+          "default": false,
+          "key": "1",
+          "label": "Low"
+        },
+        {
+          "default": false,
+          "key": "2",
+          "label": "Medium"
+        },
+        {
+          "default": false,
+          "key": "3",
+          "label": "High"
+        }
+      ]
+    },
+    "rationale": {
+      "name": "Rationale",
+      "type": "xhtml"
+    },
     "reqType": {
       "multiValued": true,
       "name": "Requirement Type",
@@ -77,6 +156,53 @@
         }
       ]
     },
+    "status": {
+      "name": "Status",
+      "type": "enum",
+      "values": [
+        {
+          "default": false,
+          "key": "1",
+          "label": "Draft"
+        },
+        {
+          "default": false,
+          "key": "2",
+          "label": "Ready"
+        },
+        {
+          "default": false,
+          "key": "3",
+          "label": "Reviewed"
+        },
+        {
+          "default": false,
+          "key": "4",
+          "label": "Approved"
+        },
+        {
+          "default": false,
+          "key": "5",
+          "label": "Released"
+        }
+      ]
+    },
+    "tbd_tbr": {
+      "name": "TBD/TBR",
+      "type": "enum",
+      "values": [
+        {
+          "default": false,
+          "key": "1",
+          "label": "TBD"
+        },
+        {
+          "default": false,
+          "key": "2",
+          "label": "TBR"
+        }
+      ]
+    },
     "type": {
       "name": "Type",
       "type": "enum",
@@ -95,6 +221,43 @@
           "default": false,
           "key": "3",
           "label": "Section"
+        },
+        {
+          "default": false,
+          "key": "4",
+          "label": "Information"
+        }
+      ]
+    },
+    "verMethod": {
+      "multiValued": true,
+      "name": "Verification Method",
+      "type": "enum",
+      "values": [
+        {
+          "default": false,
+          "key": "1",
+          "label": "Analysis"
+        },
+        {
+          "default": false,
+          "key": "2",
+          "label": "Inspection"
+        },
+        {
+          "default": false,
+          "key": "3",
+          "label": "Demonstration"
+        },
+        {
+          "default": false,
+          "key": "4",
+          "label": "Test"
+        },
+        {
+          "default": false,
+          "key": "5",
+          "label": "Special Qualification Method"
         }
       ]
     }
