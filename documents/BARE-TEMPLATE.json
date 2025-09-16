@@ -9,7 +9,7 @@
     "email": "manuel.kersic@tricera.energy",
     "company": "TRICERA energy GmbH"
   },
-  "lastChangedOn": "2025-09-16T14:40:25.788Z",
+  "lastChangedOn": "2025-09-16T14:50:45.362Z",
   "lastChangedBy": {
     "name": "Manuel Kersic",
     "email": "manuel.kersic@tricera.energy",
@@ -86,6 +86,7 @@
       ]
     },
     "instructions": {
+      "help": true,
       "name": "Instructions",
       "type": "xhtml"
     },
@@ -277,6 +278,30 @@
         }
       ],
       "default": true
+    },
+    "Requirements Prioritization": {
+      "columns": [
+        {
+          "columnId": "id",
+          "width": 65
+        },
+        {
+          "columnId": "description",
+          "width": 500
+        }
+      ]
+    },
+    "Work Remaining": {
+      "columns": [
+        {
+          "columnId": "id",
+          "width": 65
+        },
+        {
+          "columnId": "description",
+          "width": 500
+        }
+      ]
     }
   },
   "metadata": {
