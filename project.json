@@ -2,8 +2,7 @@
   "id": "MIL-STD-498-DIDs",
   "description": "Data Item Descriptions (DIDs) for the MIL-STD-498 standard",
   "documents": [
-    "BARE-TEMPLATE.json",
-    "SSS-ID.json"
+    "BARE-TEMPLATE.json"
   ],
   "traceability": {
     "reference": {
