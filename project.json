@@ -3,7 +3,7 @@
   "description": "Data Item Descriptions (DIDs) for the MIL-STD-498 standard",
   "group": {
     "level": 1,
-    "name": "Tutorial Level1"
+    "name": "DEMO Level1"
   },
   "documents": [
     "BARE-TEMPLATE.json",
